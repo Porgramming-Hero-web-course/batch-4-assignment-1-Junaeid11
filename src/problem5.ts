@@ -12,6 +12,6 @@
         name: 'Alice',
         age: 20,
     }
-    console.log(getProperty(person, "name"));
+    // console.log(getProperty(person, "name"));
     // console.log(getProperty(person, 'age'))
 }
