@@ -7,5 +7,5 @@
         const targetWord = word.toLowerCase();
     return matchWord.filter(w => w === targetWord).length;
     }
-    console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
+    // console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
 }   
