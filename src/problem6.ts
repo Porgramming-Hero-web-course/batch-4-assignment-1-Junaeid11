@@ -4,7 +4,7 @@ interface Profile{
     age: number,
     email: string
 }
-function updateProfile<T>(profile: T,whatUpdate: Partial<T>) {
+function updateProfile<A>(profile: A,whatUpdate: Partial<A>) {
             return {
                 ...profile,
                 ...whatUpdate
@@ -12,11 +12,11 @@ function updateProfile<T>(profile: T,whatUpdate: Partial<T>) {
 }
 const myProfile: Profile={
     name: 'alice',
-    age:20,
+    age:25,
     email: 'alice@example.com'
 
 }
-console.log(updateProfile(myProfile,{age : 250}))
+// console.log(updateProfile(myProfile,{age :12}))
 
 
 
