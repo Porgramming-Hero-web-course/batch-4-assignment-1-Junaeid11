@@ -7,5 +7,5 @@
         const lastWord = word.toLowerCase();
         return firstSentence.split(" ").filter(param => param === lastWord).length;
     }
-    console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
+    // console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
 }   
